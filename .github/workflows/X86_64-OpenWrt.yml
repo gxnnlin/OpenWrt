@@ -58,35 +58,6 @@ jobs:
         temp-reserve-mb: 100
         root-reserve-mb: 1024
 
-    - name: 加载自定义设置
-      run: |
-        cd package
-        mkdir openwrt-packages
-        cd openwrt-packages
-        git clone https://github.com/gxnnlin/luci-packages.git
-        git clone https://github.com/gxnnlin/luci-app-oscam.git
-        git clone https://github.com/gxnnlin/openwrt_oscam.git
-        git clone https://github.com/gxnnlin/luci-app-netdata.git
-        # git clone https://github.com/tianiue/openwrt-alist.git
-        git clone https://github.com/Mattraks/openwrt-passwall.git
-        git clone https://github.com/fw876/helloworld.git
-        # git clone https://github.com/vernesong/OpenClash.git
-        # git clone https://github.com/frainzy1477/luci-app-clash.git
-        git clone https://github.com/destan19/OpenAppFilter.git
-        # git clone https://github.com/jerrykuku/luci-app-ttnode.git
-        # git clone https://github.com/linkease/ddnsto-openwrt.git
-        # git clone https://github.com/jerrykuku/luci-app-vssr.git
-        # git clone https://github.com/jerrykuku/lua-maxminddb.git
-        git clone https://github.com/lisaac/luci-app-dockerman.git
-        git clone https://github.com/lisaac/luci-lib-docker.git
-        # git clone https://github.com/kiddin9/luci-app-dnsfilter.git
-        git clone https://github.com/zzsj0928/luci-app-pushbot
-        git clone https://github.com/MapesxGM/luci-app-tencentddns.git
-        git clone https://github.com/messense/aliyundrive-webdav.git
-       
-    - name: 下载插件
-      run: ./scripts/feeds update -a
-
     - name: Checkout
       uses: actions/checkout@main
 
