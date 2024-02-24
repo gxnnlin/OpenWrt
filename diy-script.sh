@@ -40,6 +40,27 @@ git_sparse_clone main https://github.com/Lienol/openwrt-package luci-app-filebro
 git_sparse_clone openwrt-18.06 https://github.com/immortalwrt/luci applications/luci-app-eqos
 # git_sparse_clone master https://github.com/syb999/openwrt-19.07.1 package/network/services/msd_lite
 
+# git clone https://github.com/gxnnlin/luci-packages
+git clone https://github.com/gxnnlin/luci-app-oscam
+git clone https://github.com/gxnnlin/openwrt_oscam
+git clone https://github.com/gxnnlin/luci-app-netdata
+# git clone https://github.com/tianiue/openwrt-alist
+git clone https://github.com/Mattraks/openwrt-passwall
+# git clone https://github.com/fw876/helloworld
+# git clone https://github.com/vernesong/OpenClash
+# git clone https://github.com/frainzy1477/luci-app-clash
+git clone https://github.com/destan19/OpenAppFilter
+# git clone https://github.com/jerrykuku/luci-app-ttnode
+# git clone https://github.com/linkease/ddnsto-openwrt
+# git clone https://github.com/jerrykuku/luci-app-vssr
+# git clone https://github.com/jerrykuku/lua-maxminddb
+git clone https://github.com/lisaac/luci-app-dockerman
+git clone https://github.com/lisaac/luci-lib-docker
+# git clone https://github.com/kiddin9/luci-app-dnsfilter
+git clone https://github.com/zzsj0928/luci-app-pushbot
+git clone https://github.com/MapesxGM/luci-app-tencentddns
+git clone https://github.com/messense/aliyundrive-webdav
+
 # 科学上网插件
 git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
