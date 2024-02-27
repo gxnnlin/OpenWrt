@@ -33,8 +33,9 @@ git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-a
 # git_sparse_clone master https://github.com/syb999/openwrt-19.07.1 package/network/services/msd_lite
 
 # git clone --depth=1 https://github.com/gxnnlin/luci-packages
-git clone --depth=1 https://github.com/gxnnlin/luci-app-oscam
-git clone --depth=1 https://github.com/gxnnlin/openwrt_oscam
+git clone --depth=1 https://github.com/gxnnlin/luci-app-oscam package/luci-app-oscam
+git clone --depth=1 https://github.com/gxnnlin/luci-packages/tree/master/oscam package/oscam
+git clone --depth=1 https://github.com/nx111/oscam package/oscam
 git clone --depth=1 https://github.com/gxnnlin/luci-app-netdata
 # git clone --depth=1 https://github.com/tianiue/openwrt-alist
 git clone --depth=1 https://github.com/Mattraks/openwrt-passwall
