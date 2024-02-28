@@ -40,28 +40,10 @@ git_sparse_clone main https://github.com/Lienol/openwrt-package luci-app-filebro
 git_sparse_clone openwrt-18.06 https://github.com/immortalwrt/luci applications/luci-app-eqos
 # git_sparse_clone master https://github.com/syb999/openwrt-19.07.1 package/network/services/msd_lite
 
-# git clone --depth=1 https://github.com/gxnnlin/luci-packages 
-git clone --depth=1 https://github.com/gxnnlin/luci-app-oscam package/luci-app-oscam
-git clone --depth=1 https://github.com/gxnnlin/openwrt_oscam package/oscam
-# git clone --depth=1 https://github.com/nx111/oscam package/oscam
-# git clone --depth=1 https://github.com/gxnnlin/luci-app-netdata
-# git clone --depth=1 https://github.com/tianiue/openwrt-alist
-# git clone --depth=1 https://github.com/Mattraks/openwrt-passwall
-# git clone --depth=1 https://github.com/fw876/helloworld package/helloworld
-# git clone --depth=1 https://github.com/vernesong/OpenClash
-# git clone --depth=1 https://github.com/frainzy1477/luci-app-clash
-# git clone --depth=1 https://github.com/destan19/OpenAppFilter
-# git clone --depth=1 https://github.com/jerrykuku/luci-app-ttnode
-# git clone --depth=1 https://github.com/linkease/ddnsto-openwrt
-# git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr
-# git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb
-# git clone --depth=1 https://github.com/lisaac/luci-app-dockerman
-# git clone --depth=1 https://github.com/lisaac/luci-lib-docker
-# git clone https://github.com/kiddin9/luci-app-dnsfilter
-git clone --depth=1 https://github.com/zzsj0928/luci-app-pushbot
-git clone --depth=1 https://github.com/MapesxGM/luci-app-tencentddns package/luci-app-tencentddns
-# git clone --depth=1 https://github.com/messense/aliyundrive-webdav
-git clone --depth=1 https://github.com/gxnnlin/luci-packages/luci-oscam package/oscam
+git clone https://github.com/gxnnlin/packages
+git clone --depth=1 https://github.com/gxnnlin/packages/oscam package/oscam
+git clone --depth=1 https://github.com/gxnnlin/packages/luci-app-oscam package/luci-app-oscam
+
 
 # 科学上网插件
 git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
