@@ -42,8 +42,8 @@ git_sparse_clone openwrt-18.06 https://github.com/immortalwrt/luci applications/
 
 # git clone --depth=1 https://github.com/gxnnlin/luci-packages 
 git clone --depth=1 https://github.com/gxnnlin/luci-app-oscam package/luci-app-oscam
-git clone --depth=1 https://github.com/gxnnlin/luci-packages/tree/master/oscam package/oscam
-git clone --depth=1 https://github.com/nx111/oscam package/oscam
+git clone --depth=1 https://github.com/gxnnlin/openwrt_oscam package/oscam
+# git clone --depth=1 https://github.com/nx111/oscam package/oscam
 git clone --depth=1 https://github.com/gxnnlin/luci-app-netdata
 # git clone --depth=1 https://github.com/tianiue/openwrt-alist
 # git clone --depth=1 https://github.com/Mattraks/openwrt-passwall
