@@ -44,7 +44,7 @@ git_sparse_clone openwrt-18.06 https://github.com/immortalwrt/luci applications/
 git clone --depth=1 https://github.com/gxnnlin/luci-app-oscam package/luci-app-oscam
 git clone --depth=1 https://github.com/gxnnlin/openwrt_oscam package/oscam
 # git clone --depth=1 https://github.com/nx111/oscam package/oscam
-git clone --depth=1 https://github.com/gxnnlin/luci-app-netdata
+# git clone --depth=1 https://github.com/gxnnlin/luci-app-netdata
 # git clone --depth=1 https://github.com/tianiue/openwrt-alist
 # git clone --depth=1 https://github.com/Mattraks/openwrt-passwall
 # git clone --depth=1 https://github.com/fw876/helloworld package/helloworld
@@ -61,6 +61,7 @@ git clone --depth=1 https://github.com/gxnnlin/luci-app-netdata
 git clone --depth=1 https://github.com/zzsj0928/luci-app-pushbot
 git clone --depth=1 https://github.com/MapesxGM/luci-app-tencentddns package/luci-app-tencentddns
 # git clone --depth=1 https://github.com/messense/aliyundrive-webdav
+git clone --depth=1 https://github.com/gxnnlin/luci-packages/luci-oscam package/oscam
 
 # 科学上网插件
 git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
