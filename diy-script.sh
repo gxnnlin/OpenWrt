@@ -44,6 +44,12 @@ git clone --depth=1 https://github.com/gxnnlin/packages/tree/master/luci-app-ten
 git clone --depth=1 https://github.com/gxnnlin/packages/tree/master/oscam package/oscam
 git clone --depth=1 https://github.com/gxnnlin/packages/tree/master/luci-app-oscam package/luci-app-oscam
 git clone --depth=1 https://github.com/gxnnlin/packages/tree/master/luci-app-pushbot package/luci-app-pushbot
+git clone --depth=1 https://github.com/gxnnlin/packages/tree/master/luci-app-store package/luci-app-store
+git clone --depth=1 https://github.com/gxnnlin/packages/tree/master/luci-app-ddns-go package/luci-app-ddns-go
+git clone --depth=1 https://github.com/gxnnlin/packages/tree/master/lucky package/lucky
+git clone --depth=1 https://github.com/gxnnlin/packages/tree/master/luci-app-lucky package/luci-app-lucky
+git clone --depth=1 https://github.com/gxnnlin/packages/tree/master/luci-app-ddns-go 
+
 
 
 # 科学上网插件
