@@ -40,9 +40,10 @@ git_sparse_clone main https://github.com/Lienol/openwrt-package luci-app-filebro
 git_sparse_clone openwrt-18.06 https://github.com/immortalwrt/luci applications/luci-app-eqos
 # git_sparse_clone master https://github.com/syb999/openwrt-19.07.1 package/network/services/msd_lite
 
-git clone https://github.com/gxnnlin/packages
-git clone --depth=1 https://github.com/gxnnlin/packages/oscam package/oscam
-git clone --depth=1 https://github.com/gxnnlin/packages/luci-app-oscam package/luci-app-oscam
+git clone --depth=1 https://github.com/gxnnlin/packages/tree/master/luci-app-tencentddns package/luci-app-tencentddns
+git clone --depth=1 https://github.com/gxnnlin/packages/tree/master/oscam package/oscam
+git clone --depth=1 https://github.com/gxnnlin/packages/tree/master/luci-app-oscam package/luci-app-oscam
+git clone --depth=1 https://github.com/gxnnlin/packages/tree/master/luci-app-pushbot package/luci-app-pushbot
 
 
 # 科学上网插件
