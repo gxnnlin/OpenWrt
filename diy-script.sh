@@ -73,8 +73,8 @@ git clone --depth=1 -b lede https://github.com/pymumu/luci-app-smartdns package/
 git clone --depth=1 https://github.com/pymumu/openwrt-smartdns package/smartdns
 
 # lucky
-git clone --depth=1 https://github.com/gxnnlin/packages/tree/e444b5d6ede01278bf0511e2b225f03c58aa2ae4/lucky package/luci-app-lucky
-git clone --depth=1 https://github.com/gxnnlin/packages/tree/e444b5d6ede01278bf0511e2b225f03c58aa2ae4/luci-app-lucky package/luci-app-lucky
+git clone --depth=1 https://github.com/gdy666/lucky package/lucky
+git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lucky
 
 # oscam
 git clone --depth=1 https://github.com/ntlf9t/luci-app-oscam package/luci-app-oscam
