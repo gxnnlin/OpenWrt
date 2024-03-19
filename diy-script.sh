@@ -78,7 +78,7 @@ git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lu
 
 # oscam
 git clone --depth=1 https://github.com/ntlf9t/luci-app-oscam package/luci-app-oscam
-git clone --depth=1 https://github.com/gxnnlin/oscam package/oscam
+git clone --depth=1 https://github.com/gxnnlin/openwrt_oscam package/openwrt_oscam
 
 # msd_lite
 git clone --depth=1 https://github.com/ximiTech/luci-app-msd_lite package/luci-app-msd_lite
